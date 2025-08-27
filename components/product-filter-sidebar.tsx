@@ -14,7 +14,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Star } from "lucide-react";
-import type { FilterState } from "@/app/products/page";
+import type { FilterState } from "@/app/(commerce)/products/page";
 
 interface ProductFilterSidebarProps {
   filters: FilterState;

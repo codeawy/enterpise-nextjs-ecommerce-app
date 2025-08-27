@@ -73,7 +73,8 @@ export function HeroSection() {
                 size="lg"
                 className="px-8 py-3 bg-transparent"
               >
-                <Link href="/categories">Browse Categories</Link>
+                {/* TODO: Add browse categories */}
+                <Link href="/products?category=all">Browse Categories</Link>
               </Button>
             </div>
 

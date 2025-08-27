@@ -2,16 +2,16 @@ export const categories = [
   {
     name: "Men's Collection",
     image: "/images/placeholder.png",
-    href: "/products/men",
+    href: "/products?category=men",
   },
   {
     name: "Women's Collection",
     image: "/images/placeholder.png",
-    href: "/products/women",
+    href: "/products?category=women",
   },
   {
     name: "Accessories",
     image: "/images/placeholder.png",
-    href: "/products/accessories",
+    href: "/products?category=accessories",
   },
 ];
