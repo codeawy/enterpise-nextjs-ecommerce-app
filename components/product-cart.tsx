@@ -35,7 +35,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className="relative overflow-hidden">
           <Link href={`/products/${product.id}`}>
             <Image
-              src={product.image || "/images/products/placeholder.png"}
+              src={product.image}
               alt={product.name}
               width={400}
               height={400}
