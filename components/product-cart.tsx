@@ -15,6 +15,8 @@ export default function ProductCard({ product }: ProductCardProps) {
   const [isAddingToCart, setIsAddingToCart] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
 
+  const slugifyProductName = product.name.toLowerCase().replace(/ /g, "-");
+
   const handleAddToCart = async () => {
     //TODO: Add to cart
   };
@@ -92,7 +94,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         <div className="p-4 space-y-3">
           <div className="space-y-1">
-            <Link href={`/products/${product.id}`}>
+            <Link href={`/products/${slugifyProductName}`}>
               <h3 className="font-semibold text-gray-900 hover:text-blue-600 transition-colors line-clamp-2">
                 {product.name}
               </h3>

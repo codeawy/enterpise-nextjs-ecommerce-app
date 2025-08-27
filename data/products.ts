@@ -11,6 +11,15 @@ export type Product = {
   badge?: string;
   badgeColor?: string;
   reviews?: number;
+  images?: string[];
+  sizes?: string[];
+  colors?: string[];
+  details?: {
+    material: string;
+    fit: string;
+    care: string;
+    origin: string;
+  };
 };
 
 export const products: Product[] = [
@@ -26,6 +35,19 @@ export const products: Product[] = [
     originalPrice: 39.99,
     badge: "Best Seller",
     badgeColor: "bg-green-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 2,
@@ -39,6 +61,19 @@ export const products: Product[] = [
     originalPrice: 119.99,
     badge: "Sale",
     badgeColor: "bg-red-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 3,
@@ -52,6 +87,19 @@ export const products: Product[] = [
     originalPrice: 99.99,
     badge: "New",
     badgeColor: "bg-blue-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 4,
@@ -65,6 +113,19 @@ export const products: Product[] = [
     originalPrice: 59.99,
     badge: "Sale",
     badgeColor: "bg-red-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 5,
@@ -78,6 +139,19 @@ export const products: Product[] = [
     originalPrice: 109.99,
     badge: "New",
     badgeColor: "bg-blue-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 6,
@@ -91,6 +165,19 @@ export const products: Product[] = [
     originalPrice: 55.99,
     badge: "Sale",
     badgeColor: "bg-red-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 7,
@@ -104,6 +191,19 @@ export const products: Product[] = [
     originalPrice: 75.99,
     badge: "New",
     badgeColor: "bg-blue-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 8,
@@ -117,6 +217,19 @@ export const products: Product[] = [
     originalPrice: 65.99,
     badge: "Sale",
     badgeColor: "bg-red-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 9,
@@ -130,6 +243,19 @@ export const products: Product[] = [
     originalPrice: 149.99,
     badge: "New",
     badgeColor: "bg-blue-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 10,
@@ -143,6 +269,19 @@ export const products: Product[] = [
     originalPrice: 105.99,
     badge: "Sale",
     badgeColor: "bg-red-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 11,
@@ -156,6 +295,19 @@ export const products: Product[] = [
     originalPrice: 179.99,
     badge: "New",
     badgeColor: "bg-blue-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
   {
     id: 12,
@@ -169,6 +321,19 @@ export const products: Product[] = [
     originalPrice: 49.99,
     badge: "Sale",
     badgeColor: "bg-red-500",
+    images: [
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+      "/images/placeholder.png",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    details: {
+      material: "Cotton",
+      fit: "Slim Fit",
+      care: "Machine Wash",
+      origin: "Italy",
+    },
   },
 ];
 
