@@ -16,12 +16,10 @@ import {
   Menu,
   ShoppingCart,
   Search,
-  Heart,
   User,
   Settings,
   LogOut,
   Shield,
-  Loader2,
 } from "lucide-react";
 
 export function Header() {
@@ -66,11 +64,6 @@ export function Header() {
             {/* Search */}
             <Button variant="ghost" size="sm" className="hidden sm:flex">
               <Search className="w-4 h-4" />
-            </Button>
-
-            {/* Wishlist */}
-            <Button variant="ghost" size="sm" className="hidden sm:flex">
-              <Heart className="w-4 h-4" />
             </Button>
 
             {/* Cart */}
