@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import {
   DropdownMenu,
@@ -84,9 +83,9 @@ export function Header() {
 
             {/* User menu */}
             {/* TODO: Implement auth */}
-            {true ? (
+            {false ? (
               <div className="w-8 h-8 rounded-full bg-gray-200 animate-pulse" />
-            ) : true ? (
+            ) : false ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button
@@ -124,7 +123,7 @@ export function Header() {
                     </Link>
                   </DropdownMenuItem>
                   {/* TODO: Implement auth */}
-                  {true && (
+                  {false && (
                     <DropdownMenuItem asChild>
                       <Link href="/admin">
                         <Shield className="mr-2 h-4 w-4" />
@@ -171,7 +170,7 @@ export function Header() {
                   ))}
 
                   {/* TODO: Implement auth */}
-                  {true && (
+                  {false && (
                     <>
                       <div className="border-t pt-4 mt-4">
                         <div className="flex flex-col space-y-2">
